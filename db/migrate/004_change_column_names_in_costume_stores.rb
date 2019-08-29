@@ -1,4 +1,4 @@
-class ChangeColumnNames < ActiveRecord::Migration[5.1]
+class ChangeColumnNamesInCostumeStores < ActiveRecord::Migration[5.1]
   
   def change
     rename_column :costume_stores, :start_time, :opening_time
